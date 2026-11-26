@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "evelinevisuals",
+  "version": "${version}",
+  "name": "EvelineVisuals",
+  "description": "Визуальный клиентский мод: HUD, эффекты, инфо для PvP (без читов).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.evelinevisuals.EvelineClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
